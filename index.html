@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.min.css">
+	<title>OLTERMANNI</title>
+</head>
+<body>
+	<header class="header">
+	<nav class="header__menu menu _container">
+		<div class="menu__wrap">
+			<div class="menu__burger"> 
+				<div class="menu__icon icon-menu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+			<div class="menu__logo logo">
+				<img class="logo__icon" src="img/group-logo.svg" >
+			</div>
+			<div class="menu__body">
+				<ul class="menu__list menu__list_one">
+					<li><a data-goto=".regulations__title-wrap" class="menu__link" href="#">Правила</a></li>
+					<li><a data-goto=".footer" class="menu__link" href="#">Призы</a></li>
+					<li><a data-goto=".footer" class="menu__link" href="#">Победители</a></li>
+				</ul>
+			</div>
+			<div class="menu__registration">
+				<ul class="menu__list menu__list_two">
+					<li><a class="menu__link" href="#modal">Вход</a></li>
+					<li><a class="menu__link" href="#modal">Регистрация</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="modal" id="modal">
+		<div class="modal__dialog">
+			<div class="modal__cross">
+				<a href="#"><img class="modal__img" src="img/close.jpg"></a>
+			</div>
+			<div class="modal__button">
+				<a class="modal__link" href="#"><div class="modal__button-inner">Закрыть</div></a>
+			</div>
+		</div>
+	</div>
+</header>
+	<section class="section">
+		<div class="section__image">
+			<div class="section__wrap">
+				<div class="section__kitchen kitchen">
+					<img class="kitchen__logo" src="img/kitchen.png">
+				</div>
+				<div class="section__cheese-home cheese-home">
+					<img class="cheese-home__logo" src="img/cheese-to-home.svg">
+				</div>
+				<div class="section__cheese-valio cheese-valio">
+					<img class="cheese-valio__logo" src="img/cheese-valio.png">
+				</div>
+				<div class="section__prize prize">
+					<img class="prize__logo" src="img/prize-circle.png">
+				</div>
+				<div class="section__dwarf dwarf">
+					<img 
+						class="dwarf__logo" 
+						src="img/dwarf1@2x.png" 
+						srcset="img/dwarf1@3x.png 1281w,
+								img/dwarf1@2x.png 616w,
+								img/dwarf1.png 247w"
+						sizes="(min-width: 320px) 247w,
+								(min-width: 768px) 616w,
+								(min-width: 1023px) 1281w, 100vw"
+						alt="">
+				</div>
+			</div>
+		</div>
+		<div class="section__button-wrap">
+			<div class="section__button">
+				<div class="section__button-inner">Загрузить чек</div>
+			</div>
+		</div>
+		<div class="section__regulations regulations">
+			<div class="regulations__wrap">
+				<div class="regulations__baloon">
+					<img class="regulations__logo regulations__logo_baloon" src="img/baloon.svg">
+				</div>
+
+				<div class="regulations__title-wrap">
+					<div class="regulations__title">Нам 40 лет &#8212 вам подарки</div>
+				</div>
+
+				<div class="regulations__spiral">
+					<img class="regulations__logo regulations__logo_spiral"src="img/spiral.svg">
+				</div>
+			</div>
+			<div class="regulations__instruction _container">
+				<div class="regulations__item">
+					<div class="regulations__basket">
+						<img class="regulations__logo regulations__logo_basket" src="img/basket.svg">
+					</div>
+					<div class="regulations__text">Покупайте сыр Oltermanni</div>
+				</div>
+				<div class="arrow-2">
+				    <div class="arrow-2__top"></div>
+				    <div class="arrow-2__bottom"></div>
+				</div>
+				<div class="regulations__item">
+					<div class="regulations__check">
+						<img class="regulations__logo regulations__logo_check" src="img/check.svg">
+					</div>
+					<div class="regulations__text">Регистрируйте чеки <br>на сайте в период <br>с 1 сентября по 30 ноября <br>2020 года</div>
+				</div>
+				<div class="arrow-2">
+				    <div class="arrow-2__top"></div>
+				    <div class="arrow-2__bottom"></div>
+				</div>
+				<div class="regulations__item">
+					<div class="regulations__phone">
+						<img class="regulations__logo regulations__logo_phone" src="img/phone.svg">
+					</div>
+					<div class="regulations__text">Получайте гарантированные <br>призы — деньги на телефон</div>
+				</div>
+				<div class="arrow-2">
+				    <div class="arrow-2__top"></div>
+				    <div class="arrow-2__bottom"></div>
+				</div>
+				<div class="regulations__item">
+					<div class="regulations__pedestal">
+						<img class="regulations__logo regulations__logo_pedestal" src="img/pedestal.svg">
+					</div>
+					<div class="regulations__text">Участвуйте<br> в еженедельных розыгрышах</div>
+				</div>
+				<div class="arrow-2">
+				    <div class="arrow-2__top"></div>
+				    <div class="arrow-2__bottom"></div>
+				</div>
+				<div class="regulations__item">
+					<div class="regulations__spoof">
+						<img class="regulations__logo regulations__logo_spoof" src="img/spoof.png">
+					</div>
+					<div class="regulations__text">Получите возможность <br>выиграть 400 000 <svg width="12px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 440"><path d="M232.522 242.428c63.913 0 115.91-54.382 115.91-121.227C348.432 54.37 296.435 0 232.522 0H120.568v282.428h-29v30h29V440h30V312.428h101.955v-30H150.568v-40h81.954zM150.568 30h81.955c47.371 0 85.91 40.912 85.91 91.201 0 50.303-38.539 91.227-85.91 91.227h-81.955V30z"/></svg><br>на новый интерьер</div>
+				</div>
+			</div>
+		</div>
+</section>
+	<section class="section-participants">
+	<div class="section-participants__wrap _container">
+		<div class="section-participants__img">
+			<img src="img/Vector.png">
+		</div>
+		<div class="section-participants__title">В акции участвуют</div>
+		<div class="image-slider swiper-container">
+			<div class="image-slider__wrapper swiper-wrapper">
+				<div class="image-slider__slide swiper-slide">
+					<div class="image-slider__image">
+						<img src="img/swiper1.png" alt="картинка">
+					</div>
+					<div class="image-slider__disc">Лёгкий, брусок <br>180 г</div>		
+				</div>
+				<div class="image-slider__slide swiper-slide">
+					<div class="image-slider__image">
+						<img src="img/swiper2.png" alt="картинка">
+					</div>
+					<div class="image-slider__disc">Лёгкий, слайсы <br>120, 225 г</div>		
+				</div>
+				<div class="image-slider__slide swiper-slide">
+					<div class="image-slider__image">
+						<img src="img/swiper3.png" alt="картинка">
+					</div>
+					<div class="image-slider__disc">Сливочный, брусок <br>200, 300 г</div>		
+				</div>
+				<div class="image-slider__slide swiper-slide">
+					<div class="image-slider__image">
+						<img src="img/swiper4.png" alt="картинка">
+					</div>
+					<div class="image-slider__disc">Сливочный, слайсы <br>130, 250 г</div>		
+				</div>
+			</div>
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>
+		</div>
+		<div class="swiper-pagination"></div>
+	</div>
+</section>
+	<footer class="footer">
+	<div class="footer__wrap _container">
+		<div class="footer__info">
+			<div class="footer__text">Информационная линия</div>
+			<div class="footer__phone">8 800 333-15-25</div>
+		</div>
+		<div class="footer__menu" id="menu">
+			<div class="footer__feedback">Обратная связь</div>
+			<div class="footer__regulations">Правила акции</div>
+			<div class="footer__faq">FAQ</div>
+		</div>
+		<div class="footer__social" id="social">
+			<div class="footer__toas">Присоединяйтесь к нам</div>
+			<div class="footer__network">
+				<div class="background">
+					<img src="img/facebook.svg">
+				</div>
+				<div class="background">
+					<img src="img/vk.svg">
+				</div>
+				<div class="background">
+					<img src="img/linkedin.svg">
+				</div>
+				<div class="background">
+					<img src="img/twitter.svg">
+				</div>
+				<div class="background">
+					<img src="img/in.svg">
+				</div>
+				<div class="background">
+					<img src="img/pinterest.svg">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer__logo _container">© 2020 ООО «Валио»</div>
+</footer>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
